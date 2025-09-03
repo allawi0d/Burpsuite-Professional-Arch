@@ -6,12 +6,14 @@ sudo rm -rf /bin/burpsuitepro
 
 # Installing Dependencies
 echo "Installing Dependencies..."
-sudo apt update
-sudo apt install git axel openjdk-21-jre openjdk-22-jre openjdk-23-jre -y
+sudo pacman -Sy
+sudo pacman -S git axel jre17-openjdk jre21-openjdk jre22-openjdk -y
 
 # Cloning
 git clone https://github.com/xiv3r/Burpsuite-Professional.git 
-cd Burpsuite-Professional
+mv Burpsuite-Professional Burpsuite-Professional-Arch
+cd Burpsuite-Professional-Arch
+rm flake.* *.psi default.* *macos
 
 # Download Burpsuite Professional
 echo "Downloading Burp Suite Professional Latest..."

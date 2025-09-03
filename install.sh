@@ -2,12 +2,12 @@
 
 # Installing Dependencies
 echo "Installing Dependencies..."
-sudo apt update
-sudo apt install git axel openjdk-17-jre openjdk-21-jre openjdk-22-jre -y
+sudo pacman -Sy
+sudo pacman -S git axel jre21-openjdk -y
 
 # Cloning
-git clone https://github.com/xiv3r/Burpsuite-Professional.git 
-cd Burpsuite-Professional
+git clone https://github.com/allawi0d/Burpsuite-Professional-Arch.git 
+cd Burpsuite-Professional-Arch
 
 # Download Burpsuite Professional
 echo "Downloading Burp Suite Professional Latest..."

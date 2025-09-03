@@ -17,7 +17,7 @@
 
 #  $${\color{magenta}Linux-Installation}$$
 ```sh
-sudo apt update && sudo apt install -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
+sudo pacman -S -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
 ```
 ## Run
 ```sh
