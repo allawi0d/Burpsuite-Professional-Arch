@@ -3,7 +3,7 @@
 # Installing Dependencies
 echo "Installing Dependencies..."
 sudo pacman -Sy
-sudo pacman -S git axel jre21-openjdk -y
+sudo pacman -S git axel jre21-openjdk --noconfirm
 
 # Cloning
 git clone https://github.com/allawi0d/Burpsuite-Professional-Arch.git 

@@ -7,7 +7,7 @@ sudo rm -rf /bin/burpsuitepro
 # Installing Dependencies
 echo "Installing Dependencies..."
 sudo pacman -Sy
-sudo pacman -S git axel jre17-openjdk jre21-openjdk jre22-openjdk -y
+sudo pacman -S git axel jre21-openjdk --noconfirm
 
 # Cloning
 git clone https://github.com/xiv3r/Burpsuite-Professional.git 
