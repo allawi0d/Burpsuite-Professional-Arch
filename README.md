@@ -17,26 +17,12 @@
 
 #  $${\color{magenta}Linux-Installation}$$
 ```sh
-sudo pacman -S -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
+git clone https://github.com/allawi0d/Burpsuite-Professional-Arch.git && sudo ./install.sh
 ```
 ## Run
 ```sh
 burpsuitepro
 ```
-<details><summary></summary>
-
-## Update
-> optional
-```
-cd && sudo rm -rf Burpsuite-Professional && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/refs/heads/main/update.sh | sudo bash
-```
- 
-## Java Version
-> select the default openjdk runtime
-```
-sudo update-alternatives --config java
-```               
-</details>
 
 ## Setup Licenses
 
